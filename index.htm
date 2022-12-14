@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Registration From</title>
+    <link rel="stylesheet" href="login.css">
+
+</head>
+<body>
+
+    <form action="" onsubmit="return validation()">
+        <h1 id="header">Registration From</h1>
+        <div class="login-item">
+            <i class="fa-solid fa-user"></i>
+            <input type="text" id="userid" autocomplete="off" placeholder="name"><br>
+            <span id="user"></span>
+        </div>
+        <div class="login-item">
+            <i class="fa-solid fa-envelope"></i>
+            <input type="email" id="emailid" autocomplete="off" placeholder="Email">
+            <span id="email"></span>
+        </div>
+        <div class="login-item">
+            <i class="fa-solid fa-lock"></i>
+            <input type="password" id="password" autocomplete="off" placeholder="Password">
+            <span id="pass"></span>
+        </div>
+        <div class="login-item">
+            <i class="fa-sharp fa-solid fa-key"></i>
+            <input type="password" id="confrom-password" autocomplete="off" placeholder="confrom password">
+            <span id="conpass"></span>
+        </div>
+        <button id="btn">submit</button>
+    </form>
+
+
+<script src="login.js"></script>
+<body>
+
+</html>
